@@ -7,15 +7,20 @@
 }
 
 .card__content {
-  font: "Poppins Medium", Arial, Helvetica, sans-serif;
+  font: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 12px;
 }
 
 .card__title {
+  font: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  display: none;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -35,7 +40,6 @@
   background-color: transparent;
   opacity: 80%;
   cursor: pointer;
-  cursor: url(../images/pointer.svg);
 }
 
 @media screen and (max-width: 627px) {
@@ -43,11 +47,7 @@
     height: 288px;
     padding: 0;
   }
-  .card__content {
+  .card__title {
     font-size: 16px;
-    margin: 0 0 12px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
   }
 }

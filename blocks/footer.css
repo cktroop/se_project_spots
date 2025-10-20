@@ -1,9 +1,16 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  max-height: 136px;
   align-items: center;
   display: flex;
   justify-content: center;
-  gap: 0 60px;
+}
+
+.footer__copyright {
+  font: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #212121;
+  opacity: 70%;
+  padding: 0;
 }

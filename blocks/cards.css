@@ -5,6 +5,7 @@
 .cards__list {
   list-style-type: none;
   padding: 0;
+  padding-bottom: 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, 413px);
@@ -18,5 +19,7 @@
   .cards__list {
     grid-template-columns: repeat(auto-fit, 288px);
     max-width: 288px;
+    gap: 20px 12px;
+    padding-bottom: 12px;
   }
 }
